@@ -188,6 +188,9 @@ header{
   border-radius: 30px 30px;
   color: #F6F6F6;
 }
+.bottom-section h2{
+  background-image: url(../img/stars.svg);
+}
 
 
     /* /jumbo section */
