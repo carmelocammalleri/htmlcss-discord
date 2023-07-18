@@ -23,12 +23,12 @@ body{
 }
 
 .white{
-  padding: 20px;
+  padding: 50px;
 }
 
 .gray{
   background-color: #F6F6F6;
-  padding: 20px;
+  padding: 50px;
 }
 
 .black{
@@ -153,7 +153,6 @@ header{
 
 .image-bottom{
   width: 500px;
-  background-color: #255EE9;
   margin: 0 auto;
 }
 
