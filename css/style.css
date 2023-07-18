@@ -127,6 +127,9 @@ header{
   color: white;
 }
 
+.graph{
+  line-height: 30px;
+}
 
 
     /* /jumbotron */
@@ -140,12 +143,11 @@ header{
 }
 
 .image{
-  width: 60%;
-  margin-right: 15px;
+  width: 50%;
 }
 
 .text{
-  width: 40%;
+  width: 50%;
   padding-top: 35px;
   color: black;
 }
