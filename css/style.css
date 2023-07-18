@@ -63,17 +63,18 @@ header{
   padding: 10px 15px;
   border-radius: 20px 20px;
   background-color: white;
-  color: black;
 }
+
 .button a{
   text-decoration: none;
+  color: black;
 }
 
 .button:hover{
   cursor: pointer;
   background-color: #81a1f3;
-  color: white;
 }
+
 /* /header */
 
 
@@ -97,16 +98,21 @@ header{
 
 .box-sec{
   text-align: center;
+
 }
 .box-sec h1{
   font-size: 3rem;
   color: white;
-  padding: 30px;
+  padding-top: 30px;
 }
 
 .box-sec .graph{
   font-size: 1.3rem;
-  padding: 0 150px;
+  padding: 40px 150px;
+}
+
+.button .big a{
+  padding: 20px;
 }
 
     /* /jumbotron */
