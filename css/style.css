@@ -1,0 +1,171 @@
+/* general */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 98%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.flex{
+  display: flex;
+}
+
+.white{
+  background-color: white;
+  padding: 20px;
+}
+
+.gray{
+  background-color: #F6F6F6;
+  padding: 20px;
+}
+
+.black{
+  background-color: black;
+  padding: 20px;
+}
+
+/* header */
+
+header{
+  background-color: #255EE9;
+}
+
+.box-header{
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.menu li{
+  list-style: none;
+  display: inline;
+  margin: 15px;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+}
+
+.button-sign{
+  padding: 10px 15px;
+  border-radius: 20px 20px;
+  border: none;
+}
+
+.logo{
+  border: 1px solid black;
+   color: white; /*da levare */
+}
+
+/* /header */
+
+
+/* ----------------main---------------- */
+
+
+  /* jumbotron */
+
+.jumbotron{
+  background-color: #255EE9;
+}
+
+.paragrafo{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.box-sec{
+  background-color: brown;
+  width: 600px;
+  text-align: center;
+}
+
+    /* /jumbotron */
+
+    /* img-text section */
+
+.img-text{
+  height: 300px;
+}
+
+.image{
+  background-color: orange;
+  width: calc(100% - 60%);
+  padding: 20px;
+}
+
+.text{
+  background-color: olivedrab;
+  width: 60%;
+  padding: 20px;
+}
+
+.sec-title{
+  font-size: 2rem;
+}
+
+    /* img-text section */
+
+    /* jumbo section */
+
+.text-jumbo{
+  text-align: center;
+}
+
+.image-bottom{
+  width: 500px;
+  background-color: #255EE9;
+  margin: 0 auto;
+}
+
+.bottom-section{
+  text-align: center;
+}
+
+.bottom-section h2{
+  padding: 30px;
+}
+    /* /jumbo section */
+
+/* ----------------/main---------------- */
+
+/* footer */
+
+.box-footer{
+  color: white;
+  height: 200px;
+  justify-content: space-around;
+}
+
+.social{
+  width: 25%;
+  border: 1px solid white;
+}
+
+.menu-box{
+  width: 75%;
+}
+
+.box-footer .col{
+  flex-basis: 25%;
+  border: 1px solid white;
+}
+
+
+.bottom-button{
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid lightslategray;
+  height: 100px;
+}
+
