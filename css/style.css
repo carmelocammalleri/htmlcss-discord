@@ -32,7 +32,7 @@ body{
 }
 
 .black{
-  background-color: black;
+  background-color: #23272A;
   padding: 20px;
 }
 
@@ -100,7 +100,6 @@ header{
 
 .box-sec{
   text-align: center;
-
 }
 
 .box-sec h1{
@@ -130,7 +129,6 @@ header{
 .graph{
   line-height: 30px;
 }
-
 
     /* /jumbotron */
 
@@ -200,7 +198,6 @@ header{
   height: 100px;
 }
 
-
     /* /jumbo section */
 
 /* ----------------/main---------------- */
@@ -265,4 +262,3 @@ header{
 .registrati a{
   color: white;
 }
-
