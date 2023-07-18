@@ -211,8 +211,13 @@ header{
   padding-bottom: 20px;
 }
 
-.social {
-  
+.social img{
+  width: 10%;
+}
+
+.social i{
+  margin-top: 10px;
+  margin-right: 15px;
 }
 
 .menu-box{
