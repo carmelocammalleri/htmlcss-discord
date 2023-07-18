@@ -22,7 +22,6 @@ body{
 }
 
 .white{
-  background-color: white;
   padding: 20px;
 }
 
@@ -51,7 +50,7 @@ header{
 .menu li{
   list-style: none;
   display: inline;
-  margin: 15px;
+  margin: 20px;
 }
 
 .menu li a{
@@ -59,16 +58,17 @@ header{
   color: white;
 }
 
-.button-sign{
+.button{
   padding: 10px 15px;
   border-radius: 20px 20px;
-  border: none;
+  background-color: white;
 }
 
-.logo{
-   color: white;
+.button:hover{
+  cursor: pointer;
+  background-color: #81a1f3;
+  color: white;
 }
-
 /* /header */
 
 
