@@ -60,10 +60,9 @@ header{
 }
 
 .button{
-  padding: 10px 15px;
+  padding: 10px 10px;
   border-radius: 20px 20px;
   background-color: white;
-  margin-right: 30px;
 }
 
 .button a{
@@ -113,27 +112,20 @@ header{
   padding: 40px 150px;
 }
 
-.button .big{
-  padding: 20px;
-}
-
     /* /jumbotron */
 
     /* img-text section */
 
 .img-text{
-  height: 300px;
 }
 
 .image{
-  background-color: orange;
-  width: calc(100% - 60%);
-  padding: 20px;
+  width: 60%;
 }
 
 .text{
   background-color: olivedrab;
-  width: 60%;
+  width: 40%;
   padding: 20px;
 }
 
