@@ -114,6 +114,21 @@ header{
   padding: 40px 150px;
 }
 
+.box-sec .download, .open{
+  padding: 20px 30px;
+  border-radius: 30px 30px;
+}
+
+.box-sec .open{
+  background-color: black;
+}
+
+.box-sec .open a{
+  color: white;
+}
+
+
+
     /* /jumbotron */
 
     /* img-text section */
@@ -168,7 +183,7 @@ header{
 
 .btn a{
   text-decoration: none;
-  background-color: #255EE9;
+  background-color:#7289DA ;
   padding: 20px 30px;
   border-radius: 30px 30px;
   color: #F6F6F6;
@@ -189,7 +204,6 @@ header{
 
 .social{
   width: 25%;
-  border: 1px solid white;
 }
 
 .menu-box{
@@ -198,7 +212,6 @@ header{
 
 .box-footer .col{
   flex-basis: 25%;
-  border: 1px solid white;
 }
 
 
@@ -207,5 +220,13 @@ header{
   align-items: center;
   border-top: 1px solid lightslategray;
   height: 100px;
+}
+
+.bottom-button .registrati{
+  background-color:#7289DA;
+}
+
+.registrati a{
+  color: white;
 }
 
