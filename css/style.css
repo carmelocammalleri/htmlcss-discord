@@ -63,6 +63,7 @@ header{
   padding: 10px 15px;
   border-radius: 20px 20px;
   background-color: white;
+  margin-right: 30px;
 }
 
 .button a{
@@ -87,6 +88,7 @@ header{
   background-image: url(../img/jumbo.png);
   background-size: cover;
   padding: 70px;
+  height: 520px;
 }
 
 .paragrafo{
@@ -111,7 +113,7 @@ header{
   padding: 40px 150px;
 }
 
-.button .big a{
+.button .big{
   padding: 20px;
 }
 
