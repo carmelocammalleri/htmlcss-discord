@@ -15,6 +15,7 @@
 body{
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .flex{
@@ -62,6 +63,10 @@ header{
   padding: 10px 15px;
   border-radius: 20px 20px;
   background-color: white;
+  color: black;
+}
+.button a{
+  text-decoration: none;
 }
 
 .button:hover{
@@ -78,7 +83,9 @@ header{
   /* jumbotron */
 
 .jumbotron{
-  background-color: #255EE9;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  padding: 70px;
 }
 
 .paragrafo{
@@ -89,9 +96,17 @@ header{
 }
 
 .box-sec{
-  background-color: brown;
-  width: 600px;
   text-align: center;
+}
+.box-sec h1{
+  font-size: 3rem;
+  color: white;
+  padding: 30px;
+}
+
+.box-sec .graph{
+  font-size: 1.3rem;
+  padding: 0 150px;
 }
 
     /* /jumbotron */
